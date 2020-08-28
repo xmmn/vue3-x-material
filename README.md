@@ -1,4 +1,9 @@
-# vue-x-material
+<div align="center">
+  <h1 align="center">vue3-x-material。</h1>
+  <p align="center">UI component library based on Material。</p>
+</div>
+
+<br>
 
 ## Project setup
 ```
