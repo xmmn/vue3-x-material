@@ -1,9 +1,9 @@
 import { defineComponent, ref, reactive, computed, onBeforeUnmount, TransitionGroup } from 'vue';
-import { RippleBase } from '../index'
+import { MRippleBase } from '../index'
 import './main.less'
 export default defineComponent({
     name: 'TouchRipple',
-    components: { RippleBase, TransitionGroup },
+    components: { MRippleBase, TransitionGroup },
     props: {
         color: String,
         opacity: Number,
@@ -129,7 +129,7 @@ export default defineComponent({
                     >
                         {
                             state.ripples.map(ripple => {
-                                return <ripple-base
+                                return <m-ripple-base
                                     key={ripple.id}
                                     id={ripple.id}
                                     color={props.color || options.value.color}

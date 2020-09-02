@@ -1,7 +1,7 @@
-import RippleBase from './src/base'
-import TouchRipple from './src/main'
+import MRippleBase from './src/base'
+import MTouchRipple from './src/main'
 
 export {
-    RippleBase,
-    TouchRipple
+    MRippleBase,
+    MTouchRipple
 }

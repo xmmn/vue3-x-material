@@ -1,18 +1,22 @@
 <template>
   <div class="hello">
-    <h1 >{{ msg }}</h1>
-    <touch-ripple :opacity="0.2" @mousedown="click">
+    <h1>touch-ripple</h1>
+    <m-touch-ripple :opacity="0.2" @mousedown="click">
       <img alt="Vue logo" src="../assets/logo.png" />
-    </touch-ripple>
+    </m-touch-ripple>
+    <h1>icon</h1>
+    <m-icon name="home"></m-icon>
+    <m-icon name="loading"></m-icon>
+    <m-icon name="search" style="color: red"></m-icon>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { TouchRipple } from '../../packages/index'
+import { MTouchRipple, MIcon } from '../../packages/index'
 export default defineComponent({
   name: 'HelloWorld',
-  components: { TouchRipple },
+  components: { MTouchRipple, MIcon },
   props: {
     msg: String,
   },

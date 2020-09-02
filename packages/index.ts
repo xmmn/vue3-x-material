@@ -1,6 +1,12 @@
-import { RippleBase, TouchRipple } from './touch-ripple'
+import { MRippleBase, MTouchRipple } from './touch-ripple'
+
+import { MIcon } from './icon'
+import { MButton } from './button'
 
 export {
-    RippleBase,
-    TouchRipple
+    MRippleBase,
+    MTouchRipple,
+
+    MIcon,
+    MButton
 }
